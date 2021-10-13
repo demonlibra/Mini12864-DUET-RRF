@@ -24,7 +24,7 @@ button R11 C112 F0 T"|^|" A"return"
 image R22 C0 L"hline.img"
 ;
 button R24 C6 T"HOME" A"M98 P#0" L"/sys/homeall.g|return"
-button R24 C76 T"LEVEL BED" A"M98 P#0" L"/menu/meshcomp|return"
+;button R24 C76 T"LEVEL BED" A"M98 P#0" L"/menu/meshcomp|return"
 ;
 image R36 C0 L"hline.img"
 ;

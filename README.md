@@ -1,15 +1,9 @@
-# Duet-Maestro-12864-Menu-Files
-A set of files to allow a Duet Maestro to present a basic menu system on a 12864 reprap graphic display. 
-Designed with a single extruder cartesian printer in mind.
+# Конфигурация экрана Fysetc Mini12864 с платой DUET 3 MINI 5+ WIFI.
 
-Installation:
+Принтер: UNI MINI
+Плата управления: DUET 3 MINI 5+ WIFI
+Экран: FYSETC MINI12864
 
-Download the complete set of files, unzip them and, using the DWC Display page, upload them to your /menu folder.
-
-Beware, any existing files with the same name will be overwritten, so it would be best to make a backup.
-
-To adjust the filament loading and unloading procedure for your particular setup, edit the "load" and "unload" files, they are normal GCODE macros.
-
-To change materials/temperatures shown under "HEAT", edit the "heat" file
-
-The "LEVEL BED" button calls G32, so you should have something in your bed.g
+1. Скачайте архив с файлами 
+2. Загрузите файлы в каталог System - Menu Direcory
+3. Перезагрузите плату DUET

@@ -1,2 +1,3 @@
 M83          ; Set extruder to relative mode
 G1 E100 F300 ; Feed 100 mm of filament at 300 mm/min (5 mm/s)
+G1 E-1 F1800 ; Retract 1 mm

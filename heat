@@ -21,9 +21,10 @@ button R11 C112 F0 T"|^|" A"return"
 ;
 image R22 C0 L"hline.img"
 ;
-button R26 C5 F0 T"Preheat PLA 210/60" A"M104 S210 M140 S60|return"
-button R37 C5 F0 T"Preheat PETG 230/80" A"M104 S230 M140 S80|return"
-button R48 C5 F0 T"Preheat ABS 245/110" A"M104 S245 M140 S110|return"
+button R26 C5 F0 T"PLA 210/60" A"M104 S210 M140 S60|return"
+button R37 C5 F0 T"PETG 230/80" A"M104 S230 M140 S80|return"
+button R48 C5 F0 T"ABS 245/110" A"M104 S245 M140 S110|return"
+button R26 C80 F0 T"OFF" A"M104 S0 M140 S0|return"
 ;
 alter R11 C21 W19 H0 F0 D0 N179
 alter R11 C56 W17 H0 F0 D0 N180

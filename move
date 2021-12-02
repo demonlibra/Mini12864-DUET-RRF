@@ -23,17 +23,21 @@ button R11 C112 F0 T"|^|" A"return"
 ;
 image R22 C0 L"hline.img"
 ;
-button R24 C6 T"HOME" A"M98 P#0" L"/sys/homeall.g|return"
+text R24 C6 F0 T"HOME"
+button R24 C40 T"ALL" A"G28"
+button R24 C70 T"X" A"G28 X"
+button R24 C90 T"Y" A"G28 Y"
+button R24 C110 T"Z" A"G28 Z"
 ;button R24 C76 T"LEVEL BED" A"M98 P#0" L"/menu/meshcomp|return"
 ;
 image R36 C0 L"hline.img"
 ;
-button R38 C2 T"X-25" A"G91 G1 X-25 F6000"
-button R38 T"+25" A"G91 G1 X+25 F6000"
-button R38 C44 T"Y-25" A"G91 G1 Y-25 F6000"
-button R38 T"+25" A"G91 G1 Y+25 F6000"
-button R38 C87 T"Z-25" A"G91 G1 Z-25 F6000"
-button R38 T"+25" A"G91 G1 Z+25 F6000"
+button R38 C2 T"X-10" A"G91 G1 X-10 F6000"
+button R38 T"+10" A"G91 G1 X+10 F6000"
+button R38 C44 T"Y-10" A"G91 G1 Y-10 F6000"
+button R38 T"+10" A"G91 G1 Y+10 F6000"
+button R38 C87 T"Z-10" A"G91 G1 Z-10 F6000"
+button R38 T"+10" A"G91 G1 Z+10 F6000"
 ;
 image R51 C0 L"hline.img"
 ;

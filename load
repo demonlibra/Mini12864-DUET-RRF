@@ -5,4 +5,5 @@ image R14 C0 L"hline.img"
 ;
 button R20 C2 F0 V5 T"LOAD ABS" A"M98 P#0" L"/menu/filaments/abs"
 button R30 C2 F0 V5 T"LOAD PET-G" A"M98 P#0" L"/menu/filaments/pet-g"
-button R40 C2 F0 V5 T"LOAD SBS" A"M98 P#0" L"/menu/filaments/sbs"
+button R40 C2 F0 V5 T"LOAD PLA" A"M98 P#0" L"/menu/filaments/pla"
+button R50 C2 F0 V5 T"LOAD SBS" A"M98 P#0" L"/menu/filaments/sbs"

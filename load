@@ -1,3 +1,7 @@
-M83          ; Set extruder to relative mode
-G1 E100 F300 ; Feed 100 mm of filament at 300 mm/min (5 mm/s)
-G1 E-1 F1800 ; Retract 1 mm
+button R0 C5 F0 T"BACK " A"return"
+;
+text R2 C35 F0 T"FILAMENT"
+image R14 C0 L"hline.img"
+;
+;button R10 C2 T"ABS " A"M701 SABS"
+button R20 C2 F0 V5 T"LOAD PLA" A"M98 P#0" L"/menu/filaments/pla"

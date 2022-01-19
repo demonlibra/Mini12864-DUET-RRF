@@ -34,7 +34,7 @@ button R51 C35 F0 V5 T"MOVE" A"menu move"
 button R51 C66 F0 V5 T"CTRL" A"menu control"
 button R51 C96 F0 V5 T"PRINT" A"menu listFiles"
 ;
-button R37 C5 F0 V5 T"LOAD" A"M98 P#0" L"/menu/load"
+button R37 C5 F0 V5 T"LOAD" A"menu load"
 button R37 C43 F0 V5 T"UNLOAD" A"M98 P#0" L"/menu/unload"
 button R37 C94 F0 V5 T"RISE Z" A"M98 P#0" L"/menu/rise"
 ;

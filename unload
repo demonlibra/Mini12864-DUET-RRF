@@ -1,2 +1,1 @@
-M83           ; Set extruder to relative mode
-G1 E-70 F1800 ; Move filament outside
+M702

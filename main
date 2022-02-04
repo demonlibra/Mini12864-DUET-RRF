@@ -50,10 +50,10 @@ button R51 C99 V2 T"TUNE" A"menu tune"
 ;===============================================
 ; "Printing" Menu (includes paused, pausing, resuming) (V4)
 ;
-;text R38 C6 F0 V4 T"PRINT"
-value R38 C22 F0 V4 W30 D1 N535
-;image R39 C60 V4 L"hourglass.img"
-value R38 C70 W54 F0 V4 N537
+;text R37 C6 F0 V4 T"PRINT"
+value R37 C22 F0 V4 W30 D1 N535
+;image R37 C60 V4 L"hourglass.img"
+value R37 C70 W54 F0 V4 N537
 ;-----------------------------------------------
 ;
 ;===============================================

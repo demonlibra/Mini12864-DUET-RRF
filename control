@@ -1,11 +1,15 @@
-button R0 C5 F0 T"BACK " A"return"
-;image R11 C5 L"hline.img"
-button R10 C5 T"COOLDOWN" A"M98 P#0" L"/menu/cooldown|return"
-button R20 C5 T"MOTORS OFF" A"M18|return"
-button R30 C5 T"TUNE" A"menu tune"
-button R40 C5 T"REBOOT" A"M999|return"
-button R50 C5 T"MACROS" A"menu macros"
-button R10 C80 T"HEATBED" A"menu heatbed"
-button R20 C80 T"WI-FI" A"menu wifi"
-button R30 C80 T"BABYSTEP" A"menu babysteps"
-button R40 C80 T"EXTRUDER" A"menu extruder"
+text R0 C50 F0 T"CONTROL"
+;
+image R12 C0 L"hline.img"
+;
+button R14 C5 T"HEAT" A"menu heat"
+button R24 C5 T"MOVE" A"menu move"
+button R34 C5 T"TUNE" A"menu tune"
+button R44 C5 T"BABYSTEP" A"menu babysteps"
+;
+button R14 C55 T"AUTOBEDLEVEL" A"M98 P#0" L"/menu/meshcomp"
+button R24 C70 T"MACROS" A"menu macros"
+button R34 C70 T"WI-FI" A"menu wifi"
+button R44 C70 T"REBOOT" A"M999"
+;
+button R0 C115 F0 T"|^|" A"return"

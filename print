@@ -1,0 +1,8 @@
+;
+button R0 C115 F0 T"|^|" A"return"
+;
+text R0 C20 F0 T"SELECT PRINT FILE"
+;
+image R11 C0 L"hline.img"
+;
+files R14 F0 N4 I"/gcodes" A"M32 #0|return"

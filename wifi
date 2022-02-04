@@ -1,9 +1,14 @@
-button R1 C2 F0 T"|^|" A"return|return"
+; WIFI
 ;
-text R2 C35 F0 T"Wi-Fi Control"
-image R14 C0 L"hline.img"
+;text R0 C35 F0 T"Wi-Fi Control"
+;text R0 C6 F0 T"IP:"
+value R0 C35 W80 F0 H0 N534
 ;
-button R18 C2 T"Wi-Fi off" A"M552 S-1"
-button R28 C2 T"Wi-Fi idle" A"M552 S0"
-button R38 C2 T"Wi-Fi On" A"M552 S-1 G4 S3 M552 S1"
-button R48 C2 T"Wi-Fi AP mode" A"M552 S-1 G4 S3 M552 S2"
+image R12 C0 L"hline.img"
+;
+button R14 C2 T"WI-FI OFF" A"M552 S-1"
+button R24 C2 T"WI-FI IDLE" A"M552 S0"
+button R34 C2 T"WI-FI ON" A"M552 S-1 G4 S3 M552 S1"
+button R44 C2 T"WI-FI Access Point MODE" A"M552 S-1 G4 S3 M552 S2"
+;
+button R0 C115 F0 T"|^|" A"return"

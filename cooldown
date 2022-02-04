@@ -1,2 +1,0 @@
-M140 S0	R0  ; Heater off
-M106 S0     ; Model Fan off

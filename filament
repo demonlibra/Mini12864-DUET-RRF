@@ -1,6 +1,8 @@
+value R0 C22 W19 H0 F0 D0 N079
+;
 button R0 C115 F0 T"|^|" A"return"
 ;
-text R0 C30 F0 T"LOAD FILAMENT"
+text R0 C50 F0 T"FILAMENT"
 image R12 C0 L"hline.img"
 ;
 button R14 C2 F0 V3 T"ABS" A"M98 P#0" L"/menu/filaments/abs"
@@ -12,3 +14,5 @@ button R14 C50 F0 V3 T"EASY FLEX REC" A"M98 P#0" L"/menu/filaments/easy-flex-rec
 button R24 C50 F0 V3 T"TPU FDPLAST" A"M98 P#0" L"/menu/filaments/tpu-fdplast"
 ;
 button R44 C50 F0 V3 T"UNLOAD" A"M702"
+;
+alter R0 C2 W19 H0 F0 D0 N179

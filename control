@@ -1,4 +1,4 @@
-text R0 C50 F0 T"CONTROL"
+text R0 C45 F0 T"CONTROL"
 ;
 image R12 C0 L"hline.img"
 ;

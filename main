@@ -9,20 +9,16 @@ image R3 C40 L"heatbed.img"
 value R0 C58 W17 H0 F0 D0 N080
 value R11 C58 W17 H0 F0 D0 N180
 ;
-text R1 C77 F0 T"X"
-value R1 C83 H0 F0 D0 N510
+text R1 C75 F0 T"X"
+value R1 C81 W19 H0 F0 D0 N510
 ;
-text R1 C102 F0 T"Y"
-value R1 C108 H0 F0 D0 N511
+text R1 C100 F0 T"Y"
+value R1 C106 W19 H0 F0 D0 N511
 ;
-text R11 C77 F0 T"Z"
-value R11 C83 W30 H0 F0 D2 N512
+text R10 C75 F0 T"Z"
+value R10 C81 W30 H0 F0 D2 N512
 ;
 image R22 C0 L"hline.img"
-;
-;IP
-button R23 C26 F0 T">>" A"menu wifi"
-value R23 C37 F0 W105 H0 N534
 ;
 image R35 C0 L"hline.img"
 ;
@@ -69,3 +65,9 @@ button R51 C80 F0 V6 T"FILAMENT" A"menu filament"
 ;
 image R3 C5 V20 L"error.img"
 image R3 C40 V28 L"error.img"
+;-----------------------------------------------
+;
+;IP
+button R23 C26 F0 T">>" A"menu wifi"
+value R23 C37 F0 W105 H0 N534
+;

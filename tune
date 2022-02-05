@@ -29,7 +29,7 @@ alter W26 F0 H2  N400
 text R48 C6 F0 T"SPEED:"
 alter W26 F0 H2  N500
 ;
-alter R11 C22 W19 H0 F0 D0 N179
+alter R11 C19 W19 H0 F0 D0 N179
 alter R11 C57 W17 H0 F0 D0 N180
 ;
 button R11 C112 F0 T"|^|" A"return"

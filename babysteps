@@ -1,19 +1,21 @@
 ;BabyStepping
 ;
+text R0 C25 F0 T"BABY STEPPING"
+;
 image R12 C0 L"hline.img"
 ;
-text R14 C2 F0 T"Baby Step Adjust"
+text R14 C2 F0 T"Adjust by encoder"
 alter C88 W25 H2 D2 N521
 ;
 image R26 C0 L"hline.img"
 ;
-text R28 C2 F0 T"Increase distance"
+text R28 C2 F0 T"Increase  distance"
 button R28 C88 T"-0.05" A"M290 R1 S-0.05"
 ;
 text R38 C2 F0 T"Decrease distance"
 button R38 C88 T"+0.05" A"M290 R1 S0.05"
 ;
-text R51 C2 F0 T"Set Zero"
-button R51 C88 T"=0.00" A"M290 R0 S0.00"
+text R48 C2 F0 T"Set Zero"
+button R48 C88 T"=0.00" A"M290 R0 S0.00"
 ;
 button R0 C115 F0 T"|^|" A"return"
